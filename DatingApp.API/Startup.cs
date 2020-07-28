@@ -61,7 +61,6 @@ namespace DatingApp.API
 
             app.UseAuthorization();
             app.UseAuthentication();
-            //app.UseMvc();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
